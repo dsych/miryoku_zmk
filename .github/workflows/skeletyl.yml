@@ -1,0 +1,15 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Custom Skeletyl hand wired build'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["seeeduino_xiao_ble"]'
+      shield: '["skeletyl_left","skeletyl_right"]'
+      alphas: '["QWERTY"]'
+      nav: '["vi"]'
+      clipboard: '["Mac"]'
