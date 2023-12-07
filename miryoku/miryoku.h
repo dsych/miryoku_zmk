@@ -24,7 +24,7 @@
 #define U_NU &none // available but not used
 
 #define U_TAPPING_TERM 200
-#define U_PRIOR_IDLE_TERM 80
+#define U_PRIOR_IDLE_TERM 90
 
 #include "miryoku_clipboard.h"
 
